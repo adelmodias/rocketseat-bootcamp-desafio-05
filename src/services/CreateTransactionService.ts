@@ -1,10 +1,10 @@
-import Transaction from '../models/Transaction';
-import TransactionsRepository from '../repositories/TransactionsRepository';
+import Transaction from "../models/Transaction";
+import TransactionsRepository from "../repositories/TransactionsRepository";
 
 interface Request {
     title: string;
     value: number;
-    type: 'income' | 'outcome';
+    type: "income" | "outcome";
 }
 
 class CreateTransactionService {

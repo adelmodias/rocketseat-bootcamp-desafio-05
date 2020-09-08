@@ -1,4 +1,4 @@
-import Transaction from '../models/Transaction';
+import Transaction from "../models/Transaction";
 
 interface Balance {
     income: number;
@@ -9,7 +9,7 @@ interface Balance {
 interface TransactionDTO {
     title: string;
     value: number;
-    type: 'income' | 'outcome';
+    type: "income" | "outcome";
 }
 
 class TransactionsRepository {
